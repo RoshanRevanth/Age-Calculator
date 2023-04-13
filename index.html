@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="age">
+        <input type="date" name="" id="dob"  min="1923-01-01" max="2030-12-31">
+        <input type="submit" onclick="ageCalculate()" value="Calculate Age">
+
+    </div>
+    <div class="data">
+        <div>
+            <div class="year">
+                <h2>Total Year</h2><strong>:</strong>
+                <h2 id="year"></h2>
+            </div>
+            <div class="month">
+                <h2>Total Month </h2><strong>:</strong>
+                <h2 id="month"></h2>
+            </div>
+            <div class="day">
+                <h2>Total Day </h2><strong>:</strong>
+                <h2 id="day"></h2>
+            </div>
+            <div class="hour">
+                <h2>Total Hour </h2><strong>:</strong>
+                <h2 id="hour"></h2>
+            </div>
+            <div class="minute">
+                <h2>Total Minute </h2><strong>:</strong>
+                <h2 id="minute"></h2>
+            </div>
+            <div class="seconds">
+                <h2>Total Seconds </h2><strong>:</strong>
+                <h2 id="seconds"></h2>
+            </div>
+            <div class="milliseconds">
+                <h2>Total Milli Seconds </h2><strong>:</strong>
+                <h2 id="milliseconds"></h2>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
